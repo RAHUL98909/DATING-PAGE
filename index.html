@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Site Verification -->
-    <meta name="google-site-verification" content="P_xaTI248OhwTcNfW-rFehz7iRDXnKECNqKzmPsFg7k" />
-
     <!-- SEO Meta Tags -->
     <meta name="description" content="Women seeking men - Find love, hookups, or serious relationships easily. Join the best dating platform for women.">
     <meta name="keywords" content="women dating, dating site for women, women seeking men, online dating, relationships, romance, love">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Women Seeking Men">
     <link rel="canonical" href="https://shakti9890.github.io/DATING-PAGE/">
+    <meta name="google-site-verification" content="P_xaTI248OhwTcNfW-rFehz7iRDXnKECNqKzmPsFg7k" />
 
     <!-- Open Graph for Social Media Sharing -->
     <meta property="og:title" content="Women Seeking Men - Best Dating Site for Women">
@@ -38,7 +36,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
+            overflow: auto;
         }
         .container {
             background: rgba(255, 255, 255, 0.95);
@@ -134,37 +133,7 @@
             <input type="text" name="telegram" placeholder="Telegram ID" required>
             <button type="submit">Find Matches</button>
         </form>
-        <div class="features">
-            <p>🌟 100% Free Registration</p>
-            <p>💬 Private & Secure Messaging</p>
-            <p>❤️ Verified Profiles</p>
-            <p>📍 Find Matches Nearby</p>
-            <p>🎁 Exclusive Member Perks</p>
-        </div>
-        <div class="testimonials">
-            <p>💖 "I met my soulmate here! The platform is so easy to use and safe." - Sarah, 29</p>
-            <p>💖 "Best dating site for women! I love the features and privacy settings." - Emma, 35</p>
-        </div>
-        <div class="safety-tips">
-            <p>🔒 <b>Safety Tips:</b> Never share financial information. Meet in public places. Trust your instincts.</p>
-        </div>
         <p class="footer">© 2025 Women Seeking Men. All rights reserved.</p>
     </div>
-    <script>
-        document.getElementById("datingForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            alert("Your profile has been submitted! We will find the best match for you soon.");
-            
-            let matches = [
-                "David, 30 - Loves hiking and adventure!",
-                "Chris, 28 - A charming and ambitious entrepreneur!",
-                "James, 35 - A romantic who enjoys candlelight dinners!",
-                "Michael, 32 - A fun-loving traveler always up for new experiences!"
-            ];
-            
-            let randomMatch = matches[Math.floor(Math.random() * matches.length)];
-            alert("Your potential match: " + randomMatch);
-        });
-    </script>
 </body>
 </html>
